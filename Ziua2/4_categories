@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="coord_y <= 225.161\ngini = 0.739\nsamples = 734\nvalue = [150, 143, 231, 210]\nclass = c"] ;
+1 [label="coord_x <= 333.474\ngini = 0.482\nsamples = 352\nvalue = [0, 143, 0, 209]\nclass = d"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="coord_x <= 309.172\ngini = 0.014\nsamples = 144\nvalue = [0, 143, 0, 1]\nclass = b"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 139\nvalue = [0, 139, 0, 0]\nclass = b"] ;
+2 -> 3 ;
+4 [label="coord_y <= 122.069\ngini = 0.32\nsamples = 5\nvalue = [0, 4, 0, 1]\nclass = b"] ;
+2 -> 4 ;
+5 [label="gini = 0.0\nsamples = 4\nvalue = [0, 4, 0, 0]\nclass = b"] ;
+4 -> 5 ;
+6 [label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 0, 1]\nclass = d"] ;
+4 -> 6 ;
+7 [label="gini = 0.0\nsamples = 208\nvalue = [0, 0, 0, 208]\nclass = d"] ;
+1 -> 7 ;
+8 [label="coord_x <= 380.536\ngini = 0.48\nsamples = 382\nvalue = [150, 0, 231, 1]\nclass = c"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="coord_x <= 355.924\ngini = 0.013\nsamples = 151\nvalue = [150, 0, 0, 1]\nclass = a"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 150\nvalue = [150, 0, 0, 0]\nclass = a"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 0, 1]\nclass = d"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 231\nvalue = [0, 0, 231, 0]\nclass = c"] ;
+8 -> 12 ;
+}
